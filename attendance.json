@@ -1,0 +1,17 @@
+{
+  "date": "2026-01-03",
+  "students": [
+    { "name": "Brown", "status": "Present" },
+    { "name": "Devin", "status": "Absent" },
+    { "name": "Donald", "status": "Present" },
+    { "name": "Jason", "status": "Tardy" },
+    { "name": "Leo", "status": "Present" },
+    { "name": "Link", "status": "Present" },
+    { "name": "Mark", "status": "Absent" },
+    { "name": "Saddy", "status": "Present" },
+    { "name": "Smith", "status": "Present" },
+    { "name": "Spike", "status": "Present" },
+    { "name": "Conner", "status": "Absent" },
+    { "name": "Mckay", "status": "Present" }
+  ]
+}

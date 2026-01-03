@@ -14,18 +14,4 @@
     { "name": "Mckay", "status": "Present" }
   ]
 }
-fetch("attendance.json")
-  .then(response => response.json())
-  .then(data => {
-    const table = document.getElementById("publicTable");
-    table.innerHTML = "";
-
-    data.students.forEach(student => {
-      table.innerHTML += `
-        <tr>
-          <td>${student.name}</td>
-          <td>${student.status}</td>
-        </tr>
-      `;
-    });
-  });
+"Absent" → "Present"
